@@ -1,0 +1,26 @@
+[
+  {
+    "id": "7de44050-9df4-43aa-b3b4-3b47eff8fc31@3052e93c-95d1",
+    "imageUrl": "https://img.icons8.com/cotton/512/gender-neutral-user--v1.png",
+    "name": "Dave Jhon",
+    "workTitle": "Full Stack Developer"
+  },
+  {
+    "id": "7de44050-9df4-43aa-b3b4-3b47eff8fc31@3052e93c-95d5",
+    "imageUrl": "https://img.icons8.com/cotton/512/gender-neutral-user--v1.png",
+    "name": "Mano Jackson",
+    "workTitle": "Manager"
+  },
+  {
+    "id": "7de44050-9df4-43aa-b3b4-3b47eff8fc31@3052e93c-95d4",
+    "imageUrl": "https://img.icons8.com/cotton/512/gender-neutral-user--v1.png",
+    "name": "Janet Gur",
+    "workTitle": "Data Analyst"
+  },
+  {
+    "id": "7de44050-9df4-43aa-b3b4-3b47eff8fc31@3052e93c-95d8",
+    "imageUrl": "https://img.icons8.com/cotton/512/gender-neutral-user--v1.png",
+    "name": "Sophia Gal",
+    "workTitle": "Cyber Researcher"
+  }
+]

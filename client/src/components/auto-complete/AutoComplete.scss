@@ -1,0 +1,33 @@
+@import "../../style/colors.scss";
+.auto-complete {
+  max-width: 500px;
+  min-width: 400px;
+  margin: 0 auto;
+
+  > .row {
+    display: flex;
+    align-items: flex-start;
+    min-height: 50px;
+    padding: 0 16px;
+    > .col {
+      width: 100%;
+      position: relative;
+
+      &:first-child {
+        margin-right: 32px;
+      }
+    }
+    button {
+      display: block;
+      flex: 0 0 60px;
+      background-color: $lightBlue;
+      border: 1px solid $black;
+      svg {
+        filter: invert(1);
+        width: 70%;
+      }
+      cursor: pointer;
+      border-radius: 50%;
+    }
+  }
+}
