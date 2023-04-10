@@ -31,6 +31,10 @@ export const AutoComplete: FunctionComponent = () => {
     }
   };
 
+  const handleOnChange = (q:string) => {
+    getOptionsBySearchQuery(q);
+  }  
+
   return (
     <div className="auto-complete">
       <div className="row">
@@ -39,6 +43,7 @@ export const AutoComplete: FunctionComponent = () => {
             ref={inputRef}
             setSearch={setSearchQ}
             onFocus={handleOnFocus}
+            onChange={handleOnChange}
             onBlur={handleOnBlur}
           />
           {isOptionsVisible && options.length > 0 && (
